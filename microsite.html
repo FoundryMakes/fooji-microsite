@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Partner Page</title>
+</head>
+
+<body>
+  <div class="main-container">
+    <div class="header">
+      <img class="header-logo" src="./assets/partner-logo.png" alt="fooji logo">
+    </div>
+    <div class="top-section flex-column">
+      <div class="hero">
+        <img class="hero-image" src="./assets/hero.png" alt="hero-image">
+      </div>
+      <div class="bottom-section">
+        <div class="hero__content">
+          <div class="hero__content-header">
+            Same heart, more to love
+          </div>
+          <div class="hero__content-copy">
+            We are excited to give you an exclusive peek into our shiny new brand. Fooji has always been in the business
+            of helping brands achieve pie-in-the-sky goals (literally, even pizza pie drone
+            deliveries) for fan relationships.
+            <br>
+            <br>
+            And now, we’re doubling down on that commitment. Along with our new look,
+            we’ve got big announcements coming about how we’re making connecting with fans easier than ever before. Stay
+            tuned.
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="form__container">
+      <div class="form__content">
+        <div class="form__content-title">
+          We want to show
+          you some love
+        </div>
+        <div class="form__content-copy">
+          Thanks for being a Fooji partner and friend. Fill out your information, and we’ll send you a care package to
+          celebrate our new brand. Cheers!
+        </div>
+      </div>
+      <div class="partner-form-container flex-column">
+        <form class="partner-form flex-column" action="">
+          <div class="flex-column">
+            <label class="partner-form__label" for="first-name">First Name</label>
+            <input class="partner-form-border partner-form__input" type="text" name="first-name" required>
+          </div>
+          <div class="form-element flex-column">
+            <label class="partner-form__label" for="last-name">Last Name</label>
+            <input class="partner-form-border partner-form__input" type="text" name="last-name" required>
+          </div>
+          <div class="form-element flex-column">
+            <label class="partner-form__label" for="company_name">Company Name (if applicable)</label>
+            <input class="partner-form-border partner-form__input" type="text" name="address">
+          </div>
+          <div class="form-element flex-column">
+            <label class="partner-form__label" for="address">Physical address</label>
+            <input class="partner-form-border partner-form__input" type="text" name="address" required>
+          </div>
+          <div class="form-element flex-column">
+            <label class="partner-form__label" for="email">Email address</label>
+            <input class="partner-form-border partner-form__input partner-form__input-email" type="email" name="email"
+              required>
+            <div class="partner-error-message__email">Invalid email address</div>
+          </div>
+          <div class="form-element flex-column">
+            <label class="partner-form__label" for="phone">Phone number</label>
+            <input class="partner-form-border partner-form__input" type="tel" name="phone" required>
+          </div>
+          <img class="checkmark" src="./assets/checkmark.png" alt="checkmark">
+          <div class="partner-form__checkbox-container">
+            <input class="partner-form__checkbox" type="checkbox" name="opt" checked>
+            <div class="partner-form__checkbox-text">
+              opt-in for more launch announcements
+            </div>
+          </div>
+          <div class="submit-container">
+            <button id="partner-submit" class="partner-form__submit">Submit</button>
+          </div>
+          <div class="form-success__container flex-column">
+            <div class="form-success__title">
+              Keep your eyes peeled
+            </div>
+            <div class="form-success__content">
+              Your Fooji care package is headed your way!
+            </div>
+          </div>
+          <div class="form-error-message">Whoops! Forgot something</div>
+        </form>
+      </div>
+    </div>
+    <div class="green-logo__container">
+      <img class="green-logo" src="./assets/partner-green-logo.png" alt="green fooji logo">
+    </div>
+  </div>
+  <div class="footer">
+    <hr>
+    <div class="footer-header">
+      <div>
+        <img class="footer-logo" src="./assets/footer-logo.png" alt="fooji logo">
+      </div>
+      <div class="social-icons__container">
+        <img class="social-icon" src="./assets/social-icons/instagram.png" alt="instagram">
+        <img class="social-icon" src="./assets/social-icons/linkedin.png" alt="linkedin">
+        <img class="social-icon" src="./assets/social-icons/twitter.png" alt="twitter">
+      </div>
+    </div>
+    <hr>
+    <div class="footer-links__container">
+      <a class="footer-link" href="/">Terms of Service</a>
+      <a class="footer-link" href="/">Privacy Policy</a>
+    </div>
+  </div>
+
+</body>
+
+</html>
