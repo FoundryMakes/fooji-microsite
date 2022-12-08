@@ -366,6 +366,7 @@ input.partner-form-border:focus:invalid~.partner-form-border {
 }
 
 .footer-logo {
+  height: 28px;
   color: var(--white);
   padding: 17px 0px 15px 0px;
 }
